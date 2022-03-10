@@ -1,10 +1,9 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.1",
   "description": "VMware Harbor Appliance",
   "vm_name": "VMware_Harbor_Appliance",
-  "iso_checksum": "248b9916bc60698bdc8aeecf17547cac98c52f60b69d3ec4848e1df6ba4b8e72af8cff0557ac303928beef4e299ca1090c5369d739e97f19d683d84e9c72bc6d",
-  "iso_checksum_type": "sha512",
-  "iso_url": "https://packages.vmware.com/photon/3.0/Rev2/iso/Update2/photon-3.0-a0f216d.iso",
+  "iso_checksum": "5af288017d0d1198dd6bd02ad40120eb",
+  "iso_url": "https://packages.vmware.com/photon/4.0/Rev2/iso/photon-4.0-c001795b8.iso",
   "numvcpus": "2",
   "ramsize": "4096",
   "guest_username": "root",

@@ -4,7 +4,7 @@
 
 * MacOS or Linux Desktop
 * vCenter Server or Standalone ESXi host 6.x or greater
-* [VMware OVFTool](https://www.vmware.com/support/developer/ovf/)
+* [VMware OVFTool](https://developer.vmware.com/web/tool/4.4.0/ovf)
 * [Packer](https://www.packer.io/intro/getting-started/install.html)
 
 

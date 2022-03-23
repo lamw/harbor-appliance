@@ -24,11 +24,11 @@
         </Property>
         <Property ovf:key="guestinfo.ntp" ovf:type="string" ovf:userConfigurable="true" ovf:value="pool.ntp.org">
             <Label>NTP Server</Label>
-            <Description>NTP Server</Description>
+            <Description>NTP Servers (space separated)</Description>
         </Property>
         <Property ovf:key="guestinfo.dns" ovf:type="string" ovf:userConfigurable="true" ovf:value="192.168.30.2">
             <Label>DNS</Label>
-            <Description>DNS Server</Description>
+            <Description>DNS Servers (space separated)</Description>
         </Property>
         <Property ovf:key="guestinfo.domain" ovf:type="string" ovf:userConfigurable="true" ovf:value="primp-industries.local">
             <Label>DNS Domain</Label>

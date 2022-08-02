@@ -1,5 +1,5 @@
 {
-  "version": "2.4.1",
+  "version": "2.5.3",
   "description": "VMware Harbor Appliance",
   "vm_name": "VMware_Harbor_Appliance",
   "iso_checksum": "5af288017d0d1198dd6bd02ad40120eb",

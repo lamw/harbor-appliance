@@ -66,3 +66,21 @@ rm -f harbor.*.gz
 
 # Waiting for Harbor to be ready, sleeping for 90 seconds
 sleep 90
+
+#Enable Harbor as a Systemd Service
+
+cat > /etc/systemd/system/harbor.service << __HARBOR_SYSTEMD__
+[Unit]
+Description=Harbor Service
+After=network.target docker.service
+[Service]
+Type=simple
+WorkingDirectory=/root/harbor
+ExecStart=/usr/local/bin/docker-compose -f /root/harbor/docker-compose.yml start
+ExecStop=/usr/local/bin/docker-compose -f /root/harbor/docker-compose.yml stop
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
+__HARBOR_SYSTEMD__
+
+systemctl enable harbor
